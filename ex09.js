@@ -22,3 +22,11 @@ boostedEvenAddition([4, 5, 6]);
 boostedEvenAddition([1, 3, 4, 5, 4, 6, 9, 8, 11, 10, 11, 12]);
 
 //  écrire votre code sous ce commentaire
+ function boostedEvenAddition (array){
+     let totalPair = 0
+     for (var i = 0; i < array.length; i++) {
+        if (array[i] % 2 === 0){
+            totalPair += array[i]
+        }
+     }console.log(totalPair);
+ }
