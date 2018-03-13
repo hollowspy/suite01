@@ -16,11 +16,24 @@
     Déclaration de la fonction "returnParameter",
     prenant un paramètre "nb",
     qui retourne ce paramètre "nb";
-*/
+
 
 function returnParameter(nb) {
     return nb;
 }
-
+*/
 //  écrire votre code sous ce commentaire
 
+
+// definition de ma fonction avec mon parametre nb
+function returnParameter(nb){
+    return console.log(nb);
+
+}
+
+
+// Je charge les parametre de ma fonction suivant les valeurs voulu
+returnParameter(11);
+returnParameter(98);
+returnParameter(10/2);
+returnParameter("Attention, ca marche avec du texte")
