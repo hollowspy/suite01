@@ -22,3 +22,14 @@ boostedAddition([4, 5, 6]);
 boostedAddition([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
+// Je créé une fonction qui prend comme parametre un tableau.
+// Je créé une variable somme totale
+// Je créé une boucle dans mon tableau qui parcours tous les index du talbeau.
+// A chaque boucle, tu ajoutes la valeur de l'index en question à la variable totalSum
+function boostedAddition (array){
+    let totalSum = 0
+    for (var i = 0; i < array.length; i++) {
+        totalSum += array[i];
+    }
+    console.log(totalSum)
+}
