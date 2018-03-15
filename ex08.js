@@ -31,3 +31,23 @@ isAllEven([4, 4, 6, 8, 10, 12]);
 
 //  écrire votre code sous ce commentaire
 
+function isAllEven (array){
+    for (var i = 0; i < array.length; i++) {
+        let pair = 0
+        let impair = 0
+        if (array[i] % 2 == 0){
+            console.log("chiffre pair");
+            pair += pair
+            return 1
+        }
+        else{
+            console.log("chiffre impair");
+            return 0
+        }
+        if pair = (array.length - 1) {
+            console.log("Tous les nombres du tableau sont pairs")
+
+        } if impair > 0{
+            console.log("Au moins un nombre impair")
+        }
+    }
