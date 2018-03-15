@@ -13,18 +13,18 @@
 
 */
 
-/*      Test 1
-    Appel à la fonction "isAllEven",
-    prenant en paramètre le tableau [4, 5, 6],
-    et nous attendons comme résultat 0;
+//  écrire votre code sous ce commentaire
+
+/*
+  Test 1
+  Résultat attendu : 0
 */
 
 isAllEven([4, 5, 6]);
 
-/*      Test 1
-    Appel à la fonction "isAllEven",
-    prenant en paramètre le tableau [4, 4, 6, 8, 10, 12],
-    et nous attendons comme résultat 1;
+/*
+  Test 2
+  Résultat attendu : 1
 */
 
 isAllEven([4, 4, 6, 8, 10, 12]);
@@ -51,3 +51,10 @@ function isAllEven (array){
             console.log("Au moins un nombre impair")
         }
     }
+
+
+//DO NO TOUCH
+
+module.exports = {
+  isAllEven: isAllEven
+}
