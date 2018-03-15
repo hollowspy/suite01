@@ -10,44 +10,64 @@
 
 */
 
-//  écrire votre code sous ce commentaire
-
-/*
-  Test 1
-  Résultat attendu : "impossible... ou encore jamais vu"
+/*      Test 1
+    Appel à la fonction "getHumanTypeByAge",
+    prenant en paramètre le nombre -5,
+    et nous attendons comme résultat "impossible... ou encore jamais vu";
 */
 
 getHumanTypeByAge(-5);
 
-/*
-  Test 2
-  Résultat attendu : "enfant"
+/*      Test 2
+    Appel à la fonction "getHumanTypeByAge",
+    prenant en paramètre le nombre 6,
+    et nous attendons comme résultat "enfant";
 */
 
 getHumanTypeByAge(6);
 
-/*
-  Test 3
-  Résultat attendu : "ado"
+/*      Test 3
+    Appel à la fonction "getHumanTypeByAge",
+    prenant en paramètre le nombre 17,
+    et nous attendons comme résultat "ado";
 */
 
 getHumanTypeByAge(17);
 
-/*
-  Test 4
-  Résultat attendu : "adulte"
+/*      Test 4
+    Appel à la fonction "getHumanTypeByAge",
+    prenant en paramètre le nombre 33,
+    et nous attendons comme résultat "adulte";
 */
 
 getHumanTypeByAge(33);
 
-/*
-  Test 5
-  Résultat attendu : "impossible... ou encore jamais vu"
+/*      Test 5
+    Appel à la fonction "getHumanTypeByAge",
+    prenant en paramètre le nombre 140,
+    et nous attendons comme résultat "impossible... ou encore jamais vu";
 */
 
 getHumanTypeByAge(140);
 
-/* DO NOT TOUCH */
-module.exports = {
-  getHumanTypeByAge: getHumanTypeByAge
+//  écrire votre code sous ce commentaire
+
+function getHumanTypeByAge(age) {
+    if (age > 0 && age < 12){
+        // Je met volontaireement un console.log pour voir le résultat
+        console.log("enfant");
+        return "enfant";
+    }
+    if (age >= 12 && age < 18){
+        console.log("ado");
+        return "ado";
+    }
+    if (age > 18 && age < 124){
+        console.log("adulte");
+        return "adulte";
+    }
+    else {
+        console.log("impossible, du jamais vu");
+        return "impossible du javamais vu";
+    }
 }
