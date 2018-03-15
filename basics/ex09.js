@@ -5,18 +5,18 @@
 
 */
 
-/*      Test 1
-    Appel à la fonction "boostedEvenAddition",
-    prenant en paramètre le tableau [4, 5, 6],
-    et nous attendons comme résultat 10;
+//  écrire votre code sous ce commentaire
+
+/*
+  Test 1
+  Résultat attendu : 10
 */
 
 boostedEvenAddition([4, 5, 6]);
 
-/*      Test 2
-    Appel à la fonction "boostedEvenAddition",
-    prenant en paramètre le tableau [1, 3, 4, 5, 4, 6, 9, 8, 11, 10, 11, 12],
-    et nous attendons comme résultat 44;
+/*
+  Test 2
+  Résultat attendu : 44
 */
 
 boostedEvenAddition([1, 3, 4, 5, 4, 6, 9, 8, 11, 10, 11, 12]);
@@ -33,4 +33,10 @@ boostedEvenAddition([1, 3, 4, 5, 4, 6, 9, 8, 11, 10, 11, 12]);
             totalPair += array[i]
         }
      }console.log(totalPair);
+ }
+
+
+ /* DO NOT TOUCH */
+ module.exports = {
+   boostedEvenAddition: boostedEvenAddition
  }

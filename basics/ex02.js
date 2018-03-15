@@ -16,10 +16,13 @@
     Appel à la fonction "retParam",
     prenant en paramètre le nombre 5;
 */
-// création de la fonction 
+// création de la fonction
 function retParam(nb){
     console.log(nb)
 }
 retParam(5);
 
-//  écrire votre code sous ce commentaire
+/* DO NOT TOUCH */
+module.exports = {
+  retParam: retParam
+}

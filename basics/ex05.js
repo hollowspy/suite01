@@ -7,18 +7,18 @@
 
 */
 
-/*      Test 1
-    Appel à la fonction "isEvenConcat",
-    prenant en paramètre le nombre 6,
-    et nous attendons comme résultat "6 est pair";
+//  écrire votre code sous ce commentaire
+
+/*
+  Test 1
+  Résultat attendu : "6 est pair"
 */
 
 //isEvenConcat(6);
 
-/*      Test 2
-    Appel à la fonction "isEvenConcat",
-    prenant en paramètre le nombre 5,
-    et nous attendons comme résultat "5 est impair";
+/*
+  Test 2
+  Résultat attendu : "5 est impair"
 */
 
 //isEvenConcat(5);
@@ -39,3 +39,9 @@ function isEvenConcat (nb){
 
 isEvenConcat(5);
 isEvenConcat(6);
+
+
+/* DO NOT TOUCH */
+module.exports = {
+  isEvenConcat: isEvenConcat
+}

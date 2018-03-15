@@ -11,18 +11,18 @@
     pour afficher la valeur de retour de la fonction;
 */
 
-/*      Test 1
-    Appel à la fonction "addition",
-    prenant en paramètre les nombre 6 et 9,
-    et nous attendons comme résultat 15;
+//  écrire votre code sous ce commentaire
+
+/*
+  Test 1
+  Résultat attendu : 15
 */
 
 // addition(6, 9);
 
-/*      Test 2
-    Appel à la fonction "addition",
-    prenant en paramètre les nombre 98766 et 345678,
-    et nous attendons comme résultat 444444;
+/*
+  Test 2
+  Résultat attendu : 444444
 */
 
 //addition(98766, 345678);
@@ -34,3 +34,10 @@ function addition (a,b){
 }
 console.log(addition(6,9))
 console.log(addition(98766, 345678))
+
+
+/* DO NOT TOUCH */
+module.exports = {
+  addition: addition
+}
+>>>>>>> master:basics/ex03.js
