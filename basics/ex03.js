@@ -40,4 +40,3 @@ console.log(addition(98766, 345678))
 module.exports = {
   addition: addition
 }
->>>>>>> master:basics/ex03.js

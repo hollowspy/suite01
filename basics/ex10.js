@@ -77,6 +77,7 @@ function shoppingList(array){
 }
 
 
-/* DO NOT TOUCH */
+/* DO NOT TOUCH
 module.exports = {
   shoppingList: shoppingList
+*/
