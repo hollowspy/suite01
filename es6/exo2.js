@@ -11,12 +11,22 @@
 
 //  écrire votre code sous ce commentaire
 
+const filterEvenNumbers = (_array) => {
+    new_tab = _array.filter(_array => _array % 2 == 0);
+    console.log(new_tab);
+}
+
+
+//const result = words.filter(word => word.length > 6);
+
 /*
   Test 1
   Résultat attendu : [2, 6, 8]
 */
 
-filterEvenNumbers([2, 5, 6, 8]);
+filterEvenNumbers ([2, 5, 6, 8]);
+//const result = filterEvenNumbers.filter(filterEvenNumbers => filterEvenNumbers % 2 == 0);
+//console.log(result);
 
 /*
   Test 2

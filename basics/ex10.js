@@ -25,16 +25,10 @@
   }
 */
 
-shoppingList([
-    ["orange", "orange", "kiwi", "ananas"],
-    ["kiwi", "ananas", "banane", "prune"],
-    ["orange", "orange", "orange", "orange"],
-    ["orange", "orange", "kiwi", "kiwi"],
-    ["prune", "banane", "pamplemousse", "ananas"]
-]);
+
 
 //  écrire votre code sous ce commentaire
-
+/*
 function shoppingList(array){
     let totalOrange = 0;
     let totalKiwi = 0;
@@ -76,8 +70,34 @@ function shoppingList(array){
 
 }
 
-
+*/
 /* DO NOT TOUCH
 module.exports = {
-  shoppingList: shoppingList
-*/
+  shoppingList: shoppingList */
+
+
+
+// Solution de stephane et credric bien meilleure et plus générique
+
+let objet = {};
+
+function shoppingList (tableau){
+    for (let x = 0; x < tableau.length; x++) {
+        for (let y = 0; y < tableau[x].length; y++) {
+
+            const fruit = tableau[x][y];
+            objet[fruit] = objet[fruit] ? objet[fruit] + 1:1;
+        }
+    }
+    console.log(objet);
+}
+
+
+
+shoppingList([
+    ["orange", "orange", "kiwi", "ananas"],
+    ["kiwi", "ananas", "banane", "prune"],
+    ["orange", "orange", "orange", "orange"],
+    ["orange", "orange", "kiwi", "kiwi"],
+    ["prune", "banane", "pamplemousse", "ananas"]
+]);

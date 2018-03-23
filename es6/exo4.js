@@ -1,17 +1,23 @@
 /*
   Entraînement Array.prototype.includes
-
   Ecrire une fonction "checkVehicles"
   qui permet de savoir si un véhicule est présent dans la liste de véhicules
   proposés. Renvoie 'true' si le véhicule est présent, renvoie 'false' s'il
   n'y es pas.
-
   Prototype:
       arr checkVehicles(arr, str);
 */
 
 //  écrire votre code sous ce commentaire
 
+const checkVehicles = (_array, value) => {
+    if (_array.includes(value)){
+        console.log("true");
+    }
+    else{
+        console.log("false");
+    }
+}
 /*
   Test 1
   Résultat attendu : true

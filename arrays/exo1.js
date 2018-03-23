@@ -11,6 +11,10 @@
 */
 
 //  écrire votre code sous ce commentaire
+function getCharAt(mot,poz){
+    let result = mot.charAt(poz);
+    return result
+}
 
 /*
   Test 1

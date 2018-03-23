@@ -10,6 +10,12 @@
 */
 
 //  écrire votre code sous ce commentaire
+const splitStr = (word) => {
+    let sentence = word.slice(-1);
+    let separateur = word.slice(0, -1)
+    console.log(sentence)
+    console.log(separateur);
+}
 
 /*
   Test 1
@@ -23,7 +29,8 @@ splitStr("Bonjour comment tu vas ? ça va merci.", " ");
 */
 splitStr("06-20-42-18-54", "-");
 
-/* DO NOT TOUCH */
+/* DO NOT TOUCH
 module.exports = {
   splitStr: splitStr
 }
+*/

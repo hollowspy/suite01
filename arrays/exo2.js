@@ -8,6 +8,9 @@
 */
 
 //  écrire votre code sous ce commentaire
+function editArrayAt (tab, index, valeur){
+    tab[index] = valeur;
+}
 
 /*
   Test 1
@@ -16,13 +19,24 @@
 var arr1 = ["bonjour", 4, 5];
 editArrayAt(arr1, 1, "ça");
 
+
 /*
   Test 2
   Résultat attendu : ["bonjour", "ça", "va?"]
 */
 editArrayAt(arr1, 2, "va?");
 
-/* DO NOT TOUCH */
+
+
+/* DO NOT TOUCH
 module.exports = {
   editArrayAt: editArrayAt
 }
+*/
+
+
+/*
+var arr1 = ["bonjour", 4, 5];
+arr1.splice(1, 1, "ça");
+console.log(arr1)
+*/

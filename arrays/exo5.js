@@ -10,6 +10,21 @@
   La fonction ne doit pas modifier les tableaux sources.
 */
 
+const concatArrays = (_arr, _arr1) => {
+    let new_array = [];
+    let value_array = [];
+    for (var i = 0; i < _arr.length; i++) {
+        value_array == _arr[i];
+        new_array.push(_arr[i]);
+    }
+    for (var i = 0; i < _arr1.length; i++) {
+        value_array == _arr1[i];
+        new_array.push(_arr1[i]);
+    }
+
+    console.log(new_array);
+}
+
 //  écrire votre code sous ce commentaire
 
 /*

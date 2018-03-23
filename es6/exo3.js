@@ -10,6 +10,16 @@
 */
 
 //  écrire votre code sous ce commentaire
+const findYellowFruit = (_array) =>{
+    _array.find(_findFruit => {
+        if (_findFruit.color == 'jaune'){
+            return _findFruit.name
+        }
+        else{
+            return ""
+        }
+    })
+}
 
 /*
   Test 1
@@ -24,6 +34,7 @@ findYellowFruit([{name: 'orange', color: 'orange'}, {name: 'banane', color: 'jau
 */
 
 findYellowFruit([{name: 'orange', color: 'orange'}, {name: 'pomme', color: 'vert'}]);
+
 
 /* DO NOT TOUCH */
 module.exports = {

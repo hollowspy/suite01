@@ -8,11 +8,18 @@
 
 //  écrire votre code sous ce commentaire
 
+function editStringAt(word, poz, char){
+        word.charAt[poz] = char
+        console.log(word)
+    }
+
 /*
   Test 1
   Résultat attendu : "Bondour"
 */
 editStringAt("Bonjour", 3, "d");
+
+
 
 /*
   Test 2
@@ -20,7 +27,8 @@ editStringAt("Bonjour", 3, "d");
 */
 editStringAt("Hello world", 6, "W");
 
-/* DO NOT TOUCH */
+/* DO NOT TOUCH
 module.exports = {
   editStringAt: editStringAt
 }
+*/

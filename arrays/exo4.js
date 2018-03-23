@@ -11,6 +11,20 @@
 
 //  écrire votre code sous ce commentaire
 
+function searchOcc (array, word){
+    let index = 0
+    for (var i = 0; i < array.length; i++) {
+        if (array[i] == word){
+            index += 1
+            console.log(i);
+        }
+    }
+    if (index == 0){
+        console.log(-1);
+    }
+}
+
+
 /*
   Test 1
   Résultat attendu : 2

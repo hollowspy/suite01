@@ -1,8 +1,8 @@
-xdescribe("Basics", () => {
+describe("Basics", () => {
 
   /* Import exercices */
   // const exo2 = require('../basics/ex02');
-  // const exo3 = require('../basics/ex03');
+   const exo3 = require('../basics/ex03');
   // const exo4 = require('../basics/ex04');
   // const exo5 = require('../basics/ex05');
   // const exo6 = require('../basics/ex06');
@@ -23,7 +23,7 @@ xdescribe("Basics", () => {
   });
 
   /* Test Exercice 3 */
-  xdescribe('Basics - Exo 3', () => {
+  describe('Basics - Exo 3', () => {
     it('should return 15', () => {
       expect(exo3.addition(6, 9)).toEqual(15);
     });
@@ -79,7 +79,7 @@ xdescribe("Basics", () => {
   });
 
   /* Test Exercice 7 */
-  xdescribe('Basics - Exo 7', () => {
+  describe('Basics - Exo 7', () => {
     it('should return 15', () => {
       expect(exo7.boostedAddition([4, 5, 6])).toEqual(15);
     });

@@ -31,6 +31,7 @@
 
 function addition (a,b){
     return a + b;
+    console.log(return);
 }
 console.log(addition(6,9))
 console.log(addition(98766, 345678))

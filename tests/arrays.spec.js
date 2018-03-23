@@ -2,7 +2,7 @@ xdescribe("Arrays", () => {
 
   /* Import exercices */
   // const exo1 = require('../arrays/exo1');
-  // const exo2 = require('../arrays/exo2');
+  //const exo2 = require('../arrays/exo2');
   // const exo3 = require('../arrays/exo3');
   // const exo4 = require('../arrays/exo4');
   // const exo5 = require('../arrays/exo5');
@@ -21,7 +21,7 @@ xdescribe("Arrays", () => {
   });
 
   /* Test Exercice 2 */
-  xdescribe('Arrays - Exo 2', () => {
+ xdescribe('Arrays - Exo 2', () => {
     it('should return the array modified with "ça"', () => {
       let arr1 = ["bonjour", 4, 5];
       exo2.editArrayAt(arr1, 1, "ça");
@@ -68,8 +68,8 @@ xdescribe("Arrays", () => {
       });
   });
 
-  /* Test Exercice 4 */
-  xdescribe('Arrays - Exo 6', () => {
+  /* Test Exercice 6 */
+  describe('Arrays - Exo 6', () => {
     it('should return sorted array - 1', () => {
       expect(exo6.sortNumbers([4, 3, 5, 2])).toEqual([2, 3, 4, 5]);
     });

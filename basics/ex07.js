@@ -30,6 +30,7 @@ function boostedAddition (array){
     let totalSum = 0
     for (var i = 0; i < array.length; i++) {
         totalSum += array[i];
+
     }
-    console.log(totalSum)
+        return totalSum;
 }

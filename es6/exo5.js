@@ -10,6 +10,12 @@
 */
 
 //  écrire votre code sous ce commentaire
+const countTotalTimeSpent = _array => {
+    _array.reduce(calcTime =>{
+        _array.time += _array.time;
+    })
+    console.log(_array.time);
+}
 
 /*
   Test 1

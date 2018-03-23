@@ -27,14 +27,11 @@
 
 function isEvenConcat (nb){
     if (nb % 2 === 0){
-        console.log(nb + " est un chiffre pair")
-        return 0;
-
+        return `${nb} est pair`
         }
     else{
-        console.log(`${nb} est un chiffre impair`)
-        return 1;
-        }
+        return `${nb} est impair`
+         }
 }
 
 isEvenConcat(5);

@@ -18,7 +18,8 @@
 */
 // création de la fonction
 function retParam(nb){
-    console.log(nb)
+    return nb
+    console.log(nb);
 }
 retParam(5);
 
